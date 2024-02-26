@@ -1,0 +1,38 @@
+{
+  "Records": [
+    {
+      "eventVersion": "2.1",
+      "eventSource": "aws:s3",
+      "awsRegion": "eu-central-1",
+      "eventTime": "2024-02-26T07:54:50.907Z",
+      "eventName": "ObjectCreated:Put",
+      "userIdentity": {
+        "principalId": "XXX"
+      },
+      "requestParameters": {
+        "sourceIPAddress": "XXX"
+      },
+      "responseElements": {
+        "x-amz-request-id": "RPY96J48AGQ3YMN9",
+        "x-amz-id-2": "cAK0uZ+3UkQrM+8lcSSDd+RaUIrJCZ8lnuOobsLEf9z1WwobuS/fxAyzXDbPDgYdmsJLn/EmJRylFpgau1Ua3KglgKXnVxrS"
+      },
+      "s3": {
+        "s3SchemaVersion": "1.0",
+        "configurationId": "12c6535f-a69c-467c-aa4b-36be5994f77e",
+        "bucket": {
+          "name": "aicontest",
+          "ownerIdentity": {
+            "principalId": "XXX"
+          },
+          "arn": "arn:aws:s3:::aicontest"
+        },
+        "object": {
+          "key": "On_Premises_Infrastructure_Template.xlsx",
+          "size": 23771,
+          "eTag": "06f8cdbb948a821edc6507bec0a83ef8",
+          "sequencer": "0065DC43CAD5FDD18F"
+        }
+      }
+    }
+  ]
+}
